@@ -1,0 +1,42 @@
+# Dependencias para Análisis de Supervivencia Bancaria
+# Predicción de Quiebra de Instituciones Bancarias
+
+# Data manipulation and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+imbalanced-learn>=0.11.0  # Para SMOTE y balanceo de clases
+
+# Survival Analysis
+lifelines>=0.27.0  # Para análisis de supervivencia (Kaplan-Meier, Cox)
+
+# Deep Learning (opcional)
+# tensorflow>=2.13.0
+# keras>=2.13.0
+
+# Statistical analysis
+scipy>=1.11.0
+statsmodels>=0.14.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0
+
+# Data validation
+# pandera>=0.17.0  # Para validación de esquemas de datos
+
+# Utils
+python-dateutil>=2.8.0
+openpyxl>=3.1.0  # Para leer archivos Excel si es necesario
